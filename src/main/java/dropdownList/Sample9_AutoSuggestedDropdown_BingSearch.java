@@ -37,6 +37,7 @@ public class Sample9_AutoSuggestedDropdown_BingSearch {
 		for (WebElement list : dlist) {
 			if(list.getText().contains("selenium dev"))
 			{
+				System.out.println(list);
 				list.click();
 				break;
 			}

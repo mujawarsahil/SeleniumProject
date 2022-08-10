@@ -40,7 +40,6 @@ public class Sample7_BootStrapDropDown {
 			if(item.getText().equals("JavaScript"))
 			{
 				item.click();
-				System.out.println(item.getText());
 				break;
 			}
 		}
