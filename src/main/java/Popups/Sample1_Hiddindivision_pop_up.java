@@ -25,9 +25,12 @@ public class Sample1_Hiddindivision_pop_up {
 		
 		
 		driver.manage().window().maximize();
+		
+		//find the user name text box and send username
 		WebElement user=driver.findElement(By.xpath("//input[@class='_2IX_2- VJZDxU']"));
 		user.sendKeys("9923878723");
 		
+		//find the password textbox and place wrong password 
 		driver.findElement(By.xpath("//input[@type='password']")).sendKeys("123");
 		
 		

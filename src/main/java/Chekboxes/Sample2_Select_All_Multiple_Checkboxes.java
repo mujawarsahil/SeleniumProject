@@ -19,6 +19,8 @@ public class Sample2_Select_All_Multiple_Checkboxes {
 
 		driver.get("https://itera-qa.azurewebsites.net/home/automation");
 
+		
+		//Path is very imp...
 		List<WebElement> chekboxs = driver.findElements(By.xpath("//input[@type='checkbox' and contains(@id,'day')] "));
 		
 //		for(WebElement day :chekboxs)
